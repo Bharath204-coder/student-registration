@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4e54c8;
+  box-shadow: 0 0 5px rgba(78, 84, 200, 0.4);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4e54c8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #3c41a5;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 14px;
+  white-space: pre-line; /* so RequestId shows in new line */
+}
